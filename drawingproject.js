@@ -37,25 +37,72 @@ canvas.fillStyle = "BurlyWood";
 canvas.fill();
 
 canvas.beginPath();
-canvas.arc(407, 215, 20, 0, 2*Math.PI);
+canvas.arc(395, 224, 15, 0, 2*Math.PI);
 canvas.fillStyle = "orange";
 canvas.fill();
 
 canvas.beginPath();
-canvas.moveTo(380,200);
-canvas.lineTo(380,215);
-canvas.lineTo(450,215);
-canvas.fillStyle = "orange";
-canvas.fill();
-
-canvas.beginPath();
-canvas.moveTo(400,204);
-canvas.lineTo(400,224);
-canvas.lineTo(470,224);
+canvas.arc(402, 225, 2, 0, 2*Math.PI);
 canvas.fillStyle = "BurlyWood";
 canvas.fill();
 
 canvas.beginPath();
-canvas.rect(395, 230, 25, 60);
-canvas.fillStyle = "DarkOliveGreen";
+canvas.arc(404, 225.5, 2, 0, 2*Math.PI);
+canvas.fillStyle = "BurlyWood";
+canvas.fill();
+
+canvas.beginPath();
+canvas.arc(406, 226, 2, 0, 2*Math.PI);
+canvas.fillStyle = "BurlyWood";
+canvas.fill();
+
+canvas.beginPath();
+canvas.arc(408, 226.5, 2, 0, 2*Math.PI);
+canvas.fillStyle = "BurlyWood";
+canvas.fill();
+
+canvas.beginPath();
+canvas.arc(410, 227, 2, 0, 2*Math.PI);
+canvas.fillStyle = "BurlyWood";
+canvas.fill();
+
+canvas.beginPath();
+canvas.arc(412, 227.5, 2, 0, 2*Math.PI);
+canvas.fillStyle = "BurlyWood";
+canvas.fill();
+
+canvas.beginPath();
+canvas.arc(414, 228, 2, 0, 2*Math.PI);
+canvas.fillStyle = "BurlyWood";
+canvas.fill();
+
+canvas.beginPath();
+canvas.arc(416, 228.5, 2, 0, 2*Math.PI);
+canvas.fillStyle = "BurlyWood";
+canvas.fill();
+
+for(var i = 0; i < 8; i++){
+  canvas.beginPath();
+  canvas.arc(402 + i*2, 228.5 + i/4, 2, 0, 2*Math.PI);
+  canvas.fillStyle = "BurlyWood";
+  canvas.fill();
+}
+
+for(var i = 0; i < 8; i++){
+  canvas.beginPath();
+  canvas.arc(402 + i*2, 232 + i/4, 2, 0, 2*Math.PI);
+  canvas.fillStyle = "BurlyWood";
+  canvas.fill();
+}
+
+for(var i = 0; i < 8; i++){
+  canvas.beginPath();
+  canvas.arc(402 + i*2, 232, 2, 0, 2*Math.PI);
+  canvas.fillStyle = "BurlyWood";
+  canvas.fill();
+}
+
+canvas.beginPath();
+canvas.arc(416, 230, 5, 0, 2*Math.PI);
+canvas.fillStyle = "black";
 canvas.fill();
