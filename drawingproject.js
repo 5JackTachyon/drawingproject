@@ -176,6 +176,53 @@ canvas.fillStyle = "black";
 canvas.fill();
 
 canvas.beginPath();
-canvas.rect(385, 239, 20, 70);
+canvas.rect(385, 239, 20, 55);
 canvas.fillStyle = "DarkOliveGreen";
 canvas.fill();
+
+canvas.beginPath();
+canvas.lineWidth=6;
+canvas.strokeStyle = "DarkOliveGreen";
+canvas.moveTo(387,289);
+canvas.lineTo(375,310);
+canvas.lineTo(345,330);
+canvas.stroke();
+
+canvas.beginPath();
+canvas.lineWidth=6;
+canvas.strokeStyle = "DarkGray";
+canvas.lineTo(375,310);
+canvas.lineTo(345,330);
+canvas.stroke();
+
+
+canvas.beginPath();
+canvas.lineWidth=6;
+canvas.strokeStyle = "DarkOliveGreen";
+canvas.moveTo(403,289);
+canvas.lineTo(405,310);
+canvas.lineTo(375,330);
+canvas.stroke();
+
+canvas.beginPath();
+canvas.lineWidth=6;
+canvas.strokeStyle = "DarkGray";
+canvas.moveTo(405,310);
+canvas.lineTo(375,330);
+canvas.stroke();
+
+canvas.beginPath();
+canvas.lineWidth=6;
+canvas.strokeStyle = "DarkOliveGreen";
+canvas.moveTo(387,259);
+canvas.lineTo(367,280);
+canvas.lineTo(340,265);
+canvas.stroke();
+
+canvas.beginPath();
+canvas.lineWidth=6;
+canvas.strokeStyle = "DarkOliveGreen";
+canvas.moveTo(457,259);
+canvas.lineTo(430,280);
+canvas.lineTo(403,265);
+canvas.stroke();
