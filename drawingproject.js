@@ -193,8 +193,8 @@ canvas.lineWidth=6;
 canvas.strokeStyle = "DarkGray";
 canvas.lineTo(375,310);
 canvas.lineTo(345,330);
+canvas.lineTo(355,340);
 canvas.stroke();
-
 
 canvas.beginPath();
 canvas.lineWidth=6;
@@ -209,6 +209,7 @@ canvas.lineWidth=6;
 canvas.strokeStyle = "DarkGray";
 canvas.moveTo(405,310);
 canvas.lineTo(375,330);
+canvas.lineTo(385,340)
 canvas.stroke();
 
 canvas.beginPath();
@@ -221,8 +222,80 @@ canvas.stroke();
 
 canvas.beginPath();
 canvas.lineWidth=6;
+canvas.strokeStyle = "orange";
+canvas.lineTo(367,280);
+canvas.lineTo(340,265);
+canvas.stroke();
+
+canvas.beginPath();
+canvas.lineWidth=6;
 canvas.strokeStyle = "DarkOliveGreen";
 canvas.moveTo(457,259);
 canvas.lineTo(430,280);
 canvas.lineTo(403,265);
 canvas.stroke();
+
+canvas.beginPath();
+canvas.lineWidth=6;
+canvas.strokeStyle = "orange";
+canvas.moveTo(457,259);
+canvas.lineTo(430,280);
+canvas.stroke();
+
+canvas.beginPath();
+canvas.rect(385, 287, 20, 5);
+canvas.fillStyle = "DarkGrey";
+canvas.fill();
+
+canvas.beginPath();
+canvas.rect(392.5, 287, 5, 5);
+canvas.fillStyle = "black";
+canvas.fill();
+
+canvas.beginPath();
+canvas.rect(385, 239, 20, 5);
+canvas.fillStyle = "red";
+canvas.fill();
+
+canvas.beginPath();
+canvas.rect(385, 239, 15, 20);
+canvas.fillStyle = "DarkGray";
+canvas.fill();
+
+canvas.beginPath();
+canvas.lineWidth=6;
+canvas.strokeStyle = "yellow";
+canvas.moveTo(640,227);
+canvas.lineTo(600,239);
+canvas.stroke();
+
+canvas.beginPath();
+canvas.lineWidth=6;
+canvas.strokeStyle = "yellow";
+canvas.moveTo(640,227);
+canvas.lineTo(600,220);
+canvas.stroke();
+
+canvas.beginPath();
+canvas.arc(655, 225, 15, 0, 2*Math.PI);
+canvas.fillStyle = "blue";
+canvas.fill();
+
+canvas.beginPath();
+canvas.lineWidth=6;
+canvas.strokeStyle = "red";
+canvas.moveTo(665,222);
+canvas.lineTo(655,227);
+canvas.stroke();
+
+canvas.beginPath();
+canvas.lineWidth=6;
+canvas.strokeStyle = "red";
+canvas.moveTo(665,227);
+canvas.lineTo(655,227);
+canvas.stroke();
+
+canvas.beginPath();
+canvas.arc(660, 227, 4, 0, 2*Math.PI);
+canvas.fillStyle = "black";
+canvas.fill();
